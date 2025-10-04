@@ -1,13 +1,13 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { FiPhone, FiMapPin } from "react-icons/fi";
+
 import { FaPhoneSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-white text-gray-300 pt-10 pb-6">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 grid md:grid-cols-4 gap-10">
         {/* Logo + Phone */}
         <div>
           <Link href="/" className="flex items-center space-x-2">
@@ -19,12 +19,12 @@ export default function Footer() {
               className="cursor-pointer"
             />
           </Link>
-          <a
+          {/* <a
             href="tel:1-877-742-2999"
             className="flex items-center mt-4 text-lg font-semibold text-black"
           >
             <FaPhoneSquare className="mr-2 text-[var(--color-main)] rotate-90" aria-hidden="true" />1-877-742-2999
-          </a>
+          </a> */}
         </div>
 
         {/* Quick Links */}
@@ -75,9 +75,9 @@ export default function Footer() {
         {/* Location */}
         <div className="text-black">
           <h3 className=" font-bold mb-3">Location</h3>
-          <p className="flex items-start">
+          {/* <p className="flex items-start">
             1234 Transport Street, City Name, State, ZIP
-          </p>
+          </p> */}
         </div>
       </div>
 

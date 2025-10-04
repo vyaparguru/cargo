@@ -1,7 +1,7 @@
 import UnderConstruction from '@/components/Underconst'
 import React from 'react'
 
-export default function Contact() {
+export default function UC() {
   return (
     <UnderConstruction />
   )

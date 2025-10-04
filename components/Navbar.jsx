@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full shadow bg-white fixed top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3 md:py-2">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-4 md:px-6 py-3 md:py-2">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
           <Image
@@ -51,15 +51,15 @@ export default function Navbar() {
 
         {/* Right side (phone + button) desktop */}
         <div className="hidden md:flex items-center space-x-6">
-          <a
+          {/* <a
             href="tel:1-877-742-2999"
             className="flex items-center text-black font-semibold text-md"
           >
             <FaPhoneSquare className="mr-2 text-[var(--color-main)]  rotate-90" aria-hidden="true" />
             123456789
-          </a>
+          </a> */}
           <Link
-            href="/quote"
+            href="/get-a-quote"
             className="bg-[var(--color-main)]  text-white text-sm px-4 py-3 rounded  font-semibold"
           >
             GET A QUOTE
@@ -116,10 +116,10 @@ export default function Navbar() {
           className="flex items-center text-black font-semibold text-md mx-auto"
         >
           <FaPhoneSquare className="mr-2 text-[var(--color-main)] rotate-90" aria-hidden="true" />
-          123456789
+          {/* 123456789 */}
         </a>
         <Link
-          href="/quote"
+          href="/get-a-quote"
           className="bg-[var(--color-main)] text-white px-14 py-2 font-semibold"
         >
           GET A QUOTE
