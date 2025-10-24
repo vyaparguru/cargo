@@ -1,8 +1,8 @@
-import UnderConstruction from '@/components/Underconst'
+import GetQuote from '@/components/GetQuote'
 import React from 'react'
 
 export default function Quote() {
   return (
-    <UnderConstruction />
+    <GetQuote />
   )
 }

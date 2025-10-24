@@ -1,8 +1,8 @@
-import UnderConstruction from '@/components/Underconst'
+import Contact from '@/components/Contact'
 import React from 'react'
 
-export default function Contact() {
+export default function Quote() {
   return (
-    <UnderConstruction />
+    <Contact />
   )
 }

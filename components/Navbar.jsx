@@ -51,13 +51,13 @@ export default function Navbar() {
 
         {/* Right side (phone + button) desktop */}
         <div className="hidden md:flex items-center space-x-6">
-          {/* <a
+          <a
             href="tel:1-877-742-2999"
             className="flex items-center text-black font-semibold text-md"
           >
             <FaPhoneSquare className="mr-2 text-[var(--color-main)]  rotate-90" aria-hidden="true" />
-            123456789
-          </a> */}
+            905-669-0481
+          </a>
           <Link
             href="/get-a-quote"
             className="bg-[var(--color-main)]  text-white text-sm px-4 py-3 rounded  font-semibold"
@@ -68,7 +68,7 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden text-2xl text-black"
+          className="md:hidden text-2xl text-black cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <FiX /> : <FiMenu />}
@@ -116,7 +116,7 @@ export default function Navbar() {
           className="flex items-center text-black font-semibold text-md mx-auto"
         >
           <FaPhoneSquare className="mr-2 text-[var(--color-main)] rotate-90" aria-hidden="true" />
-          {/* 123456789 */}
+          905-669-0481
         </a>
         <Link
           href="/get-a-quote"

@@ -19,7 +19,7 @@ export default function WhyUs() {
             <h3 className="text-xl font-bold mb-3 text-black">
               Asset-Based & Canadian
             </h3>
-            <p className="text-gray-600">
+            <p className="text-black">
               We are a Canadian-based company with 2 locations in Canada
               (Ontario & New Brunswick) with a large fleet of trucks
               available to transport your goods within Canada and the USA.
@@ -32,7 +32,7 @@ export default function WhyUs() {
             <h3 className="text-xl font-bold mb-3 text-black">
               Dry, Cool, Heated, Flatbed
             </h3>
-            <p className="text-gray-600">
+            <p className="text-black">
               Whether your load requires heating, cooling, custom-tailored
               delivery options – we’ve got you covered. We ensure your goods
               are delivered to the right place on time.
@@ -43,7 +43,7 @@ export default function WhyUs() {
           <div className="flex flex-col items-center text-center">
             <FiCheckCircle className="text-[var(--color-main)] text-6xl mb-4" />
             <h3 className="text-xl font-bold mb-3 text-black">Fully Certified</h3>
-            <p className="text-gray-600">
+            <p className="text-black">
               Certified with CBSA, C-TPAT, PIP, CSA, FAST, ACE, ACI,
               HAZMAT, and SmartWay – ensuring your goods are delivered
               without delays, hidden fees, or unnecessary inspections.
@@ -57,7 +57,7 @@ export default function WhyUs() {
           <div className="text-center">
             <p className="text-4xl font-bold text-[var(--color-main)] mb-2">100+</p>
             <h4 className="text-lg font-bold mb-2 text-black">Over 100 Trucks</h4>
-            <p className="text-gray-600">
+            <p className="text-black">
               We own a fleet of modern trucks to transport goods in Canada
               and across the border, ensuring reliable service each time.
             </p>
@@ -67,7 +67,7 @@ export default function WhyUs() {
           <div className="text-center">
             <p className="text-4xl font-bold text-[var(--color-main)] mb-2">200+</p>
             <h4 className="text-lg font-bold mb-2 text-black">Over 200 Trailers</h4>
-            <p className="text-gray-600">
+            <p className="text-black">
               Our 200+ trailers support perishable and non-perishable goods
               transport, including Vans, Reefers, Heated trailers, and
               Flatbeds.
@@ -78,7 +78,7 @@ export default function WhyUs() {
           <div className="text-center">
             <p className="text-4xl font-bold text-[var(--color-main)] mb-2">98%</p>
             <h4 className="text-lg font-bold mb-2 text-black">On-time Delivery</h4>
-            <p className="text-gray-600">
+            <p className="text-black">
               With an industry-leading 98% on-time delivery rate, we ensure
               your goods reach their destination reliably and promptly.
             </p>

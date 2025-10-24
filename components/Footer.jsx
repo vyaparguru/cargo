@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { FaPhoneSquare } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div className="text-black">
-          <h3 className=" font-bold mb-3">Quick Links</h3>
+          <h3 className="text-[var(--color-main)] font-bold mb-3">Quick Links</h3>
           <ul className="space-y-2">
              <li>
               <Link href="/" className="">
@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* Services */}
         <div className="text-black">
-          <h3 className="font-bold mb-3">Our Services</h3>
+          <h3 className="text-[var(--color-main)] font-bold mb-3">Our Services</h3>
           <ul className="space-y-2">
             <li>Freight Transportation</li>
             <li>Warehousing & Storage</li>
@@ -74,10 +74,23 @@ export default function Footer() {
 
         {/* Location */}
         <div className="text-black">
-          <h3 className=" font-bold mb-3">Location</h3>
-          {/* <p className="flex items-start">
-            1234 Transport Street, City Name, State, ZIP
-          </p> */}
+          <h3 className="text-[var(--color-main)] font-bold mb-3">Location</h3>
+
+          <div className="flex items-start gap-3">
+            <FaMapMarkerAlt className="text-[var(--color-main)] flex-none" size={20} aria-hidden="true" />
+            <p className="m-0">
+              <span className="font-bold mr-2 underline">USA Office:</span>
+              <span>Suite104 9407 NE Vancouver Mall Dr, Vancouver, WA 98662, USA.</span>
+            </p>
+          </div>
+
+          <div className="flex items-start gap-3 mt-3">
+            <FaMapMarkerAlt className="text-[var(--color-main)] flex-none" size={20} aria-hidden="true" />
+            <p className="m-0">
+              <span className="font-bold mr-2 underline">Canada Office:</span>
+              <span>236 1A-12830 96 Ave, Surrey BC&nbsp;V3V0C2, Canada.</span>
+            </p>
+          </div>
         </div>
       </div>
 

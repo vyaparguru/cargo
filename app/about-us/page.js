@@ -1,8 +1,10 @@
-import UnderConstruction from '@/components/Underconst'
+import About from '@/components/About'
 import React from 'react'
 
-export default function About() {
+export default function AboutPage() {
   return (
-    <UnderConstruction />
+    <div className="mt-32 md:mt-20">
+        <About />
+    </div>
   )
 }
