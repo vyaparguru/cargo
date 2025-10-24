@@ -6,7 +6,6 @@ import WhyUs from "@/components/Whyus";
 export default function Home() {
   return (
     <>
-      {/* <UnderConstruction /> */}
       <Hero />
       <About />
       <Services />

@@ -4,8 +4,8 @@ import { FaPhoneAlt, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="bg-gray-50 py-16 px-4 md:px-8 mt-32 md:mt-10">
-      <div className="max-w-7xl mx-auto bg-white p-8 shadow-xl">
+    <div className="bg-gray-50 py-16 px-4 md:px-6 mt-32 md:mt-10">
+      <div className="max-w-7xl mx-auto bg-white py-8 px-6 shadow-xl">
         {/* Header */}
         <h2 className="text-3xl md:text-4xl text-black font-bold mb-10 text-center">Contact Us</h2>
 
@@ -26,12 +26,22 @@ export default function Contact() {
               </a>
             </div>
 
-            <div className="flex items-start text-black mt-6">
-              <FaMapMarkerAlt className="text-[var(--color-main)] mt-1 mr-3" />
-              <p>
-                Suite104 9407 NE Vancouver Mall Dr, Vancouver, WA 98662, USA. <br/>
-                236 1A-12830 96 Ave, Surrey BC V3V0C2, Canada.
-              </p>
+            <div className="mt-6 space-y-4">
+              <div className="flex items-start gap-3 ">
+                <FaMapMarkerAlt className="text-[var(--color-main)] flex-none" size={20} aria-hidden="true" />
+                <p className="m-0 text-black">
+                  <span className="font-bold mr-2 underline">USA Office:</span>
+                  <span>Suite104 9407 NE Vancouver Mall Dr, Vancouver, WA 98662, USA.</span>
+                </p>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <FaMapMarkerAlt className="text-[var(--color-main)] flex-none" size={20} aria-hidden="true" />
+                <p className="m-0 text-black">
+                  <span className="font-bold mr-2 underline">Canada Office:</span>
+                  <span>236 1A-12830 96 Ave, Surrey BC&nbsp;V3V0C2, Canada.</span>
+                </p>
+              </div>
             </div>
           </div>
 
