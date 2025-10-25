@@ -19,12 +19,6 @@ export default function Footer() {
               className="cursor-pointer"
             />
           </Link>
-          {/* <a
-            href="tel:1-877-742-2999"
-            className="flex items-center mt-4 text-lg font-semibold text-black"
-          >
-            <FaPhoneSquare className="mr-2 text-[var(--color-main)] rotate-90" aria-hidden="true" />1-877-742-2999
-          </a> */}
         </div>
 
         {/* Quick Links */}
@@ -97,7 +91,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-gray-200 mt-8 pt-4 text-center text-sm text-black space-y-1">
         <p>© {new Date().getFullYear()} Trivon. All rights reserved.</p>
-        <p>
+        {/* <p>
           Website developed by{" "}
           <a
             href="https://vyaparguru.com/"
@@ -107,7 +101,7 @@ export default function Footer() {
           >
             Vyapur Guru Infotech Pvt. Ltd.
           </a>
-        </p>
+        </p> */}
       </div>
     </footer>
   );

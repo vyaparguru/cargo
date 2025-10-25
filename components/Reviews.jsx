@@ -6,15 +6,15 @@ export default function Testimonials() {
   const testimonials = [
     {
       text: `Trivon has been a trusted logistics partner for years. Their timely service, communication, and professionalism are unmatched. We can always rely on them to deliver our goods safely and on time.`,
-      author: "Bharat Company",
+      author: "Freightcom",
     },
     {
       text: `Trivon has been a trusted logistics partner for years. Their timely service, communication, and professionalism are unmatched. We can always rely on them to deliver our goods safely and on time.`,
-      author: "Bharat Company",
+      author: "Freightcom",
     },
     {
       text: `Trivon has been a trusted logistics partner for years. Their timely service, communication, and professionalism are unmatched. We can always rely on them to deliver our goods safely and on time.`,
-      author: "Bharat Company",
+      author: "Freightcom",
     },
   ];
 
