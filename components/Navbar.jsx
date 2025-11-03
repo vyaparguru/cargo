@@ -13,7 +13,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "HOME", path: "/" },
     { name: "ABOUT US", path: "/about-us" },
-    { name: "OUR SERVICES", path: "/our-services" },
+    { name: "DISCOVER", path: "/our-services" },
     { name: "WHY US", path: "/why-us" },
     { name: "CONTACT US", path: "/contact-us" },
   ];
@@ -52,11 +52,11 @@ export default function Navbar() {
         {/* Right side (phone + button) desktop */}
         <div className="hidden md:flex items-center space-x-6">
           <a
-            href="tel:1-877-742-2999"
+            href="tel:7788389611"
             className="flex items-center text-black font-semibold text-md"
           >
             <FaPhoneSquare className="mr-2 text-[var(--color-main)]  rotate-90" aria-hidden="true" />
-            905-669-0481
+            7788389611
           </a>
           <Link
             href="/get-a-quote"
@@ -112,11 +112,11 @@ export default function Navbar() {
       {/* Phone + Quote button mobile (always visible) */}
       <div className="md:hidden flex justify-between space-x-10 bg-gray-50 border-t-2 shadow">
         <a
-          href="tel:1-877-742-2999"
+          href="tel:7788389611"
           className="flex items-center text-black font-semibold text-md mx-auto"
         >
           <FaPhoneSquare className="mr-2 text-[var(--color-main)] rotate-90" aria-hidden="true" />
-          905-669-0481
+          7788389611
         </a>
         <Link
           href="/get-a-quote"

@@ -14,8 +14,8 @@ export default function Contact() {
           <div>
             <div className="flex items-center mb-4 text-[var(--color-main)] text-lg font-semibold">
               <FaPhoneAlt className="mr-3" />
-              <a href="tel:9056690481" className="hover:underline">
-                905-669-0481
+              <a href="tel:7788389611" className="hover:underline">
+                7788389611
               </a>
             </div>
 
@@ -35,13 +35,13 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div className="flex items-start gap-3">
+              {/* <div className="flex items-start gap-3">
                 <FaMapMarkerAlt className="text-[var(--color-main)] flex-none" size={20} aria-hidden="true" />
                 <p className="m-0 text-black">
                   <span className="font-bold mr-2 underline">Canada Office:</span>
                   <span>236 1A-12830 96 Ave, Surrey BC&nbsp;V3V0C2, Canada.</span>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 

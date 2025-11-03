@@ -78,13 +78,13 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex items-start gap-3 mt-3">
+          {/* <div className="flex items-start gap-3 mt-3">
             <FaMapMarkerAlt className="text-[var(--color-main)] flex-none" size={20} aria-hidden="true" />
             <p className="m-0">
               <span className="font-bold mr-2 underline">Canada Office:</span>
               <span>236 1A-12830 96 Ave, Surrey BC&nbsp;V3V0C2, Canada.</span>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 

@@ -41,7 +41,7 @@ export default function Hero() {
             href="/our-services"
             className="w-full md:w-auto px-6 py-3 border-2 hover:border-black hover:bg-black text-white font-medium rounded-md transition text-center"
           >
-            View Services
+            Discover
           </a>
         </div>
       </div>

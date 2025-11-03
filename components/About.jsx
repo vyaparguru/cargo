@@ -27,7 +27,7 @@ export default function About() {
               href="/our-services"
               className="w-full md:w-auto px-6 py-3 bg-[var(--color-main)] border-2 border-[var(--color-main)] text-white rounded-md font-medium transition text-center"
             >
-              View Services
+              Discover
             </Link>
             <Link
               href="/get-a-quote"
