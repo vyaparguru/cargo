@@ -48,7 +48,8 @@ export default function Contact() {
           {/* Embedded Map */}
           <div className="flex justify-center items-center w-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.081159868845!2d-79.4901188236596!3d43.78176787109506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2d73d0a24cf1%3A0x734ff1fa8c632fa0!2sET%20Transport!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.9622243629!2d-122.65160387862174!3d47.60852405764992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA%2C%20USA!5e0!3m2!1sen!2sin!4v1762621487191!5m2!1sen!2sin"
+              
               width="100%"
               height="400"
               allowFullScreen=""
